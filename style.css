@@ -1,0 +1,48 @@
+
+body.dark-mode {
+    transition: background-color 0.5s;
+  }
+  .rotate-3d {
+    transform: rotateY(45deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .rotate-3d:hover {
+    transform: rotateY(0deg);
+  }
+  
+
+  /* Add this CSS to your existing styles */
+.navbar-nav a {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: #FF5733; /* Change the color to your desired hover color */
+}
+
+
+.about-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+.about-section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+.jumbotron{
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#project{
+    background-color: #e2edff;
+}
+
+section{
+  padding-top: 5rem;
+}
