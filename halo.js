@@ -1,19 +1,3 @@
-alert('hallo bang apakabar');
-
-// prompt ('jawab disini');
-
-// confirm('srius lu?');
-
-// alert('bagus deh kabarnya');
-
-
-// var tes = confirm('kamu yakin');
-// if(tes == true) {
-//     alert('user neken ok');
-// } else {
-//     alert('user menekan cancel')
-// }
-
 document.addEventListener('DOMContentLoaded', function() {
     const aboutSection = document.querySelector('.about-section');
 
